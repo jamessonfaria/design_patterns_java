@@ -1,7 +1,6 @@
 package br.com.jamesson.creational_patterns.abstract_factory.app.service;
 
 import br.com.jamesson.creational_patterns.abstract_factory.app.service.factory.EjbAbstractFactory;
-import br.com.jamesson.creational_patterns.abstract_factory.app.service.factory.RestAbstractFactory;
 import br.com.jamesson.creational_patterns.abstract_factory.app.service.factory.ServicesAbstractFactory;
 import br.com.jamesson.creational_patterns.abstract_factory.app.service.services.CarService;
 import br.com.jamesson.creational_patterns.abstract_factory.app.service.services.UserService;
