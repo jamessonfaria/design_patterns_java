@@ -11,21 +11,21 @@ import javax.swing.JPanel;
 public class Client {
 
 	public static void main(String[] args) {
-		JFrame frame =new JFrame();  
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setLayout(new BorderLayout());
-		
 		JLabel title = new JLabel("TITLE");
-		frame.add(title, BorderLayout.NORTH);
+		
+		JLabel label = new JLabel("Label #1");
+		JButton button= new JButton("Button #1");
 
 		JPanel panel = new JPanel(new FlowLayout());
-		JLabel label = new JLabel("Label #1");
-		JButton button= new JButton("Button #1");  
 		panel.add(label);  
 		panel.add(button);  
 
+		JFrame frame =new JFrame();  
+		frame.setLayout(new BorderLayout());	
+		frame.add(title, BorderLayout.NORTH);
 		frame.add(panel, BorderLayout.CENTER);
-		          
+
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(400,200);  
 		frame.setVisible(true);
 	}
