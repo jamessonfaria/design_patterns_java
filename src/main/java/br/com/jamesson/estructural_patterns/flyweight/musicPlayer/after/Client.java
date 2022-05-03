@@ -1,6 +1,6 @@
-package br.com.jamesson.estructural_patterns.flyweight.musicPlayer.before;
+package br.com.jamesson.estructural_patterns.flyweight.musicPlayer.after;
 
-import br.com.jamesson.estructural_patterns.flyweight.musicPlayer.before.service.MusicService;
+import br.com.jamesson.estructural_patterns.flyweight.musicPlayer.after.service.MusicService;
 
 public class Client {
 
@@ -12,9 +12,6 @@ public class Client {
 		player.listenMusic("User A", "Be Yourself;Audioslave;200");
 		player.listenMusic("User B", "The Unfforgiven;Mettalica;300");
 		player.listenMusic("User B", "Be Yourself;Audioslave;200");
-
-		player.listenMusic("User C", "The Unfforgiven;Mettalica;300");
-		player.listenMusic("User D", "The Unfforgiven;Mettalica;300");
 		
 		player.report();
 	}
