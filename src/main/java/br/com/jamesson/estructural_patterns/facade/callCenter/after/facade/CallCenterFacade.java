@@ -10,14 +10,12 @@ import br.com.jamesson.estructural_patterns.facade.callCenter.after.services.Rep
 import br.com.jamesson.estructural_patterns.facade.callCenter.after.services.SecurityService;
 import br.com.jamesson.estructural_patterns.facade.callCenter.after.services.CardService;
 
-
-
 public class CallCenterFacade {
-	CardService cardService;
-	RegisterService registerService;
-	ReportService reportService;
-	PaymentService paymentService;
-	SecurityService securityService;
+	private CardService cardService;
+	private RegisterService registerService;
+	private ReportService reportService;
+	private PaymentService paymentService;
+	private SecurityService securityService;
 	
 	public CallCenterFacade() {
 		cardService = new CardService();
