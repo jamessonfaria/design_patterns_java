@@ -1,6 +1,6 @@
 package br.com.jamesson.estructural_patterns.flyweight.musicPlayer.before;
 
-import br.com.cod3r.flyweight.musicPlayer.before.service.MusicService;
+import br.com.jamesson.estructural_patterns.flyweight.musicPlayer.before.service.MusicService;
 
 public class Client {
 

@@ -1,4 +1,4 @@
-package br.com.cod3r.flyweight.musicPlayer.before.service;
+package br.com.jamesson.estructural_patterns.flyweight.musicPlayer.before.service;
 
 import java.util.Collection;
 import java.util.HashMap;
