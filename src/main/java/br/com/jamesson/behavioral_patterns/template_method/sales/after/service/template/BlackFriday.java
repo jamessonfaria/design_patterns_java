@@ -2,6 +2,8 @@ package br.com.jamesson.behavioral_patterns.template_method.sales.after.service.
 
 import br.com.jamesson.behavioral_patterns.template_method.sales.after.model.Cart;
 
+import java.util.Calendar;
+
 public class BlackFriday extends BestOfferTemplate {
 
 	public BlackFriday(Cart cart) {
@@ -10,7 +12,8 @@ public class BlackFriday extends BestOfferTemplate {
 
 	@Override
 	public boolean isAppliable() {
-		return true;  //FIXME we should use calendar to be dinamic
+        Calendar now = Calendar.getInstance();
+        return now.get(Calendar.MONTH) == Calendar.NOVEMBER;
 	}
 
 	@Override
