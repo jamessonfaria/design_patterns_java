@@ -4,7 +4,7 @@ public class UserModel extends ModelPersist {
 	protected String username;
 	protected String password;
 
-	public UserModel(String username, String password) {
+    public UserModel(String username, String password) {
 		this.username = username;
 		this.password = password;
 	}
