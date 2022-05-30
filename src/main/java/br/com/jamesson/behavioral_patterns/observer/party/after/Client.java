@@ -13,5 +13,6 @@ public class Client {
 
 		System.out.println("Husband is comming");
 		doorman.setStatus(true);
+		doorman.setStatus(true);
 	}
 }

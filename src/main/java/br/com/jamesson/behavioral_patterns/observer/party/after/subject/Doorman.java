@@ -8,7 +8,9 @@ public class Doorman extends Subject {
 	}
 
 	public void setStatus(boolean newStatus) {
-		this.status = newStatus;
-		notifyObservers(newStatus);
+        if(newStatus != this.status){
+            this.status = newStatus;
+            notifyObservers(newStatus);
+        }
 	}
 }
